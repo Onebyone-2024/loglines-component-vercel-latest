@@ -1,1 +1,0 @@
-import{r,a as u}from"./iframe-DfV2U1i9.js";import{a as o}from"./index-CAVth87D.js";var c=u[" useId ".trim().toString()]||(()=>{}),n=0;function d(e){const[t,a]=r.useState(c());return o(()=>{a(s=>s??String(n++))},[e]),t?`radix-${t}`:""}function m(e){const t=r.useRef(e);return r.useEffect(()=>{t.current=e}),r.useMemo(()=>(...a)=>t.current?.(...a),[])}export{m as a,d as u};
